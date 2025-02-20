@@ -1,0 +1,67 @@
+.nav-bar{
+    position: absolute;
+    top: 15px;
+    right: 20%;
+}
+
+.navbar-content{
+    height: 80px;
+    position: relative;
+    width: 100%;
+}
+
+
+
+.logo{
+    position: absolute;
+    top: 15px;
+    left: 20%;
+}
+
+.cards{
+    height: 300px;
+}
+
+.cards{
+    position: relative;
+    background-color:#e3e2e2;
+}
+
+.card-content{
+    position: absolute;
+    top: 35%;
+    left: 18%;
+}
+
+.h-1{
+    font-size: 60px;
+    color: white;
+}
+
+.p-1{
+    text-align: center;
+    color: white;
+}
+
+
+/* .containers{
+    position: relative;
+}
+.card-1{
+    position: absolute;
+    top: 90px;
+    left: 0;
+}
+
+.card-2{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+
+.card-3{
+    position: absolute;
+    top: 90px;
+    right: 0;
+} */
