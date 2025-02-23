@@ -1,67 +1,133 @@
-.nav-bar{
+
+
+/* navbar */
+.nav-bar {
     position: absolute;
     top: 15px;
     right: 20%;
 }
 
-.navbar-content{
+.navbar-content {
     height: 80px;
     position: relative;
     width: 100%;
 }
 
-
-
-.logo{
+.logo {
     position: absolute;
     top: 15px;
     left: 20%;
 }
 
-.cards{
+/* image */
+.cards {
     height: 300px;
 }
 
-.cards{
+.cards {
     position: relative;
-    background-color:#e3e2e2;
+    background-color: #e3e2e2;
 }
 
-.card-content{
+.card-content {
     position: absolute;
     top: 35%;
     left: 18%;
 }
 
-.h-1{
+.h-1 {
     font-size: 60px;
     color: white;
 }
 
-.p-1{
+.p-1 {
     text-align: center;
     color: white;
 }
 
+/* cards */
+#service {
+    height:350px ;
+}
+.services h2 {
+    text-transform:uppercase;
+    margin: 80px;
+    text-align: center;
+}
 
-/* .containers{
+.boxes{
     position: relative;
 }
-.card-1{
-    position: absolute;
-    top: 90px;
-    left: 0;
+
+.box{
+    border: 2px solid rgb(231, 231, 231);
+    padding: 30px;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+   
 }
 
-.card-2{
+.box-1{
     position: absolute;
-    top: 90px;
-    right: 0;
+    top: 10%;
+    left: 12%;
 }
 
-
-.card-3{
+.box-2{
     position: absolute;
-    top: 90px;
-    right: 0;
-} */
+     top: 10%;
+    left: 42%;
+}
+
+.box-3{
+    position: absolute;
+    right: 10%;
+    top: 12%;
+}
+
+/* porfolio */
+
+#portfolio{
+    height: 400px;
+}
+
+.portfolio h2{
+text-align: center;
+text-transform: uppercase;
+margin: 80px;
+}
+
+.cards-image{
+    position: relative;
+}
+
+.cards-image1{
+    position: absolute;
+    top: 10%;
+    left: 12%;
+}
+
+.cards-image2{
+    position: absolute;
+    top: 10%;
+   left: 42%;
+}
+
+.cards-image3{
+    position: absolute;
+    right: 10%;
+    top: 12%;
+}
+
+/* forms */
+
+.wrap{
+    margin: 10px 370px;
+}
+
+.form h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 80px; 
+}
